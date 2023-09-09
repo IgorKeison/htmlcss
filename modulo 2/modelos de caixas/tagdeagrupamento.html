@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /**div é uma class do tipo box-level
+        span do tipo iline-level*/
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: yellowgreen;
+            margin: 0px;
+        }header{
+            
+            background-color: antiquewhite;
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+            background-color: antiquewhite;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 1px;
+            box-shadow: inset 2px 1px 14px 6px rgba(0, 0, 0, 0.453);
+        }
+        footer{
+            background-color: antiquewhite;
+            color: rgb(65, 77, 77);
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }article{
+            background-color: antiquewhite;
+        }article > aside{
+            background-color: aliceblue;
+        }nav{
+            background-color: blueviolet;
+            padding: 3px;
+            box-shadow: 2px 4px 4px 0px rgba(31, 33, 31, 0.604);/*sombra na borda*/
+
+        }nav > a{
+            text-decoration: none;/*tirar decoração da link*/
+            color: aliceblue;
+            font-weight: bold;
+            margin-right: 30px;
+        }nav > a:hover{
+            text-decoration:underline /*decoração do link*/;
+            
+            
+            
+        }footer >p{
+            margin: 0px;
+        }h1{
+            box-shadow: inset 2px 1px 14px 6px rgba(0, 0, 0, 0.618);
+            text-align: center;
+            color: rgba(255, 255, 255, 0.8);
+            
+        }
+        div#bola{
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 60px;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>meu site</h1>
+   <header>
+   <nav><!--navegação-->
+   <a href="#">link</a>
+   <a href="#">link</a>
+   <a href="#">link</a>
+   <a href="#">link</a>
+   <a href= "#">link</a>
+  </nav>
+   </header>
+   <main>
+    <section id="assunto">
+        <article><!--artigo-->
+            <h2>noticias sobre o brasil</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident praesentium ea at quae nemo quod, delectus vitae aliquam neque a similique omnis obcaecati aspernatur blanditiis! Facere perspiciatis eveniet consectetur corrupti.</p>
+            <aside><!--conteudo periferico-->
+                <p>artigo ecrito por ze</p>
+            </aside>
+        </article>
+
+    </section>
+
+   </main>
+   <footer><!--roda pe-->
+   <p>desenvolvido pelo curso em video</p>
+   </footer>
+   <div id="bola">
+   </div>
+</body>
+</html>
